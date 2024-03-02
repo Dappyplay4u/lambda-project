@@ -11,11 +11,13 @@ Steps:
 
 ***Create IAM User***:
 
-Create an IAM user with the necessary permissions to perform the required tasks. Assign the following policies to the user:
+Create an IAM user with the necessary permissions to perform the required tasks.
+Create a lambda fucntion role following priviledges:
 AmazonSESFullAccess
 CloudWatchFullAccess
 AmazonS3FullAccess
 AmazonSNSFullAccess
+LambdaExecuteRole
 
 
 ***Create Lambda Function for Health Check***:
